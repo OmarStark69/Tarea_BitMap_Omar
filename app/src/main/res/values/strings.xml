@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Manejo de Imágenes Ejemplo 3</string>
+   <string name="action_settings">Settings</string>
+   <string name="buttonDrawBitmapText">Cargar Imagen 1</string>
+   <string name="buttonDrawBitmapText_2">Cargar Imagen 2</string>
+   <string name="buttonDrawBitmapText_3">Cargar Imagen 3</string>
+   <string name="buttonDrawBitmapText_4">Cargar Imagen 4</string>
+   <string name="itemMenuLoadBitmapTitle">Cargar Bitmap</string>
+   <string name="itemClearBitmapTitle">Borrar Bitmap</string>
+   <string name="itemMenuExitApp">Salir de la App</string>
+   <string name="mensaje_image_view">Imagen a visualizar</string>
+   <string name="imagen_1">Imagen 1</string>
+   <string name="imagen_2">Imagen 2</string>
+   <string name="imagen_3">Imagen 3</string>
+   <string name="imagen_4">Imagen 4</string>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayoutMainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <!-- Linear Layout para la primer fila que mostrará 2 imágenes -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.40"
+       android:orientation="horizontal">
+
+      <ImageView
+          android:id="@+id/imageViewBitmap"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginEnd="10dp"
+          android:layout_weight="0.50"
+          android:background="#FFC0C0C0"
+          android:contentDescription="@string/mensaje_image_view"
+          tools:ignore="NestedWeights"
+          tools:srcCompat="@tools:sample/avatars" />
+
+      <ImageView
+          android:id="@+id/imageViewBitmap_2"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginEnd="10dp"
+          android:layout_weight="0.50"
+          android:background="#FFC0C0C0"
+          android:contentDescription="@string/mensaje_image_view"
+          tools:srcCompat="@tools:sample/avatars" />
+   </LinearLayout>
+
+   <!-- Linear Layout para la segunda fila que mostrará 2 botones -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.10"
+       android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/buttonDrawBitmap"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_marginStart="10dp"
+          android:layout_marginEnd="10dp"
+          android:layout_marginBottom="10dp"
+          android:layout_weight="0.50"
+          android:tag="1"
+          android:text="@string/buttonDrawBitmapText"
+          tools:ignore="ButtonStyle,NestedWeights" />
+
+      <Button
+          android:id="@+id/buttonDrawBitmap_2"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_marginStart="10dp"
+          android:layout_marginEnd="10dp"
+          android:layout_marginBottom="10dp"
+          android:layout_weight="0.50"
+          android:tag="2"
+          android:text="@string/buttonDrawBitmapText_2"
+          tools:ignore="ButtonStyle" />
+   </LinearLayout>
+
+   <!-- Linear Layout para la tercer fila que mostrará 2 imágenes -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.40"
+       android:orientation="horizontal">
+      <ImageView
+          android:id="@+id/imageViewBitmap_3"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginEnd="10dp"
+          android:layout_weight="0.50"
+          android:background="#FFC0C0C0"
+          android:contentDescription="@string/mensaje_image_view"
+          tools:ignore="NestedWeights"
+          tools:srcCompat="@tools:sample/avatars" />
+
+      <ImageView
+          android:id="@+id/imageViewBitmap_4"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginEnd="10dp"
+          android:layout_weight="0.50"
+          android:background="#FFC0C0C0"
+          android:contentDescription="@string/mensaje_image_view"
+          tools:srcCompat="@tools:sample/avatars" />
+   </LinearLayout>
+
+   <!-- Linear Layout para la cuarta fila que mostrará 2 botones -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.10"
+       android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/buttonDrawBitmap_3"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_marginStart="10dp"
+          android:layout_marginEnd="10dp"
+          android:layout_marginBottom="10dp"
+          android:layout_weight="0.50"
+          android:tag="3"
+          android:text="@string/buttonDrawBitmapText_3"
+          tools:ignore="ButtonStyle,NestedWeights"/>
+
+      <Button
+          android:id="@+id/buttonDrawBitmap_4"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_marginStart="10dp"
+          android:layout_marginEnd="10dp"
+          android:layout_marginBottom="10dp"
+          android:layout_weight="0.50"
+          android:tag="4"
+          android:text="@string/buttonDrawBitmapText_4"
+          tools:ignore="ButtonStyle" />
+   </LinearLayout>
+
+</LinearLayout>

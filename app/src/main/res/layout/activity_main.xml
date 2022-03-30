@@ -16,14 +16,14 @@
        android:orientation="horizontal">
 
       <ImageView
-          android:id="@+id/imageViewBitmap"
+          android:id="@+id/imageViewBitmap_1"
           android:layout_width="0dp"
           android:layout_height="match_parent"
           android:layout_marginStart="10dp"
           android:layout_marginTop="10dp"
           android:layout_marginEnd="10dp"
           android:layout_weight="0.50"
-          android:background="#FFC0C0C0"
+          android:background="#C3C3C3"
           android:contentDescription="@string/mensaje_image_view"
           tools:ignore="NestedWeights"
           tools:srcCompat="@tools:sample/avatars" />
@@ -36,7 +36,7 @@
           android:layout_marginTop="10dp"
           android:layout_marginEnd="10dp"
           android:layout_weight="0.50"
-          android:background="#FFC0C0C0"
+          android:background="#C3C3C3"
           android:contentDescription="@string/mensaje_image_view"
           tools:srcCompat="@tools:sample/avatars" />
    </LinearLayout>
@@ -49,7 +49,7 @@
        android:orientation="horizontal">
 
       <Button
-          android:id="@+id/buttonDrawBitmap"
+          android:id="@+id/buttonDrawBitmap_1"
           android:layout_width="0dp"
           android:layout_height="match_parent"
           android:layout_marginStart="10dp"
@@ -57,7 +57,7 @@
           android:layout_marginBottom="10dp"
           android:layout_weight="0.50"
           android:tag="1"
-          android:text="@string/buttonDrawBitmapText"
+          android:text="@string/buttonDrawBitmapText_1"
           tools:ignore="ButtonStyle,NestedWeights" />
 
       <Button
@@ -87,7 +87,7 @@
           android:layout_marginTop="10dp"
           android:layout_marginEnd="10dp"
           android:layout_weight="0.50"
-          android:background="#FFC0C0C0"
+          android:background="#C3C3C3"
           android:contentDescription="@string/mensaje_image_view"
           tools:ignore="NestedWeights"
           tools:srcCompat="@tools:sample/avatars" />
@@ -100,7 +100,7 @@
           android:layout_marginTop="10dp"
           android:layout_marginEnd="10dp"
           android:layout_weight="0.50"
-          android:background="#FFC0C0C0"
+          android:background="#C3C3C3"
           android:contentDescription="@string/mensaje_image_view"
           tools:srcCompat="@tools:sample/avatars" />
    </LinearLayout>

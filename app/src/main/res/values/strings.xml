@@ -2,7 +2,7 @@
 <resources>
    <string name="app_name">Manejo de Imágenes Ejemplo 3</string>
    <string name="action_settings">Settings</string>
-   <string name="buttonDrawBitmapText">Cargar Imagen 1</string>
+   <string name="buttonDrawBitmapText_1">Cargar Imagen 1</string>
    <string name="buttonDrawBitmapText_2">Cargar Imagen 2</string>
    <string name="buttonDrawBitmapText_3">Cargar Imagen 3</string>
    <string name="buttonDrawBitmapText_4">Cargar Imagen 4</string>

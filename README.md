@@ -7,3 +7,4 @@ Ejercicio.
  3. Investigar la función para generar números aleatorios.
  4. Generar un número aleatorio del 1 al 9.
  5. Cargar la i-esima imagen de forma aleatoria.
+"# Tarea_BitMap_Omar" 
